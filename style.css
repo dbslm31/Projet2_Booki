@@ -123,6 +123,21 @@ input {
     border-bottom-right-radius: 15px;
 }
 
+.search_mobile {
+    display:none;
+    background-color:#0065FC;
+    border-color: transparent;
+    color:#f2f2f2;
+    padding-right: 15px;
+    padding-left:15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;    
+}
+
+.search_img {
+    color:#f2f2f2;
+}
+
 /*Filters Style*/
 
 .filters {
@@ -133,8 +148,6 @@ input {
     align-items:center;
     font-weight: bold;
     margin-left:2rem;
-    
-    
     
 }
 
@@ -152,20 +165,9 @@ input {
     margin-left:45px;
     padding-top:2px;
     font-weight: bolder;
-    
-    
-    
+     
 }
 
-.filter_title {
-
-}
-
-.filters p {
-   
-    
-    
-}
 
 .filter1, .filter2, .filter3, .filter4  {
     display: flex;
@@ -178,7 +180,7 @@ input {
 
 .filter1 p, .filter2 p, .filter3 p, .filter4 p {
     padding-left:10px;
-    
+ 
 }
 
 .dollar_icon, .family_icon, .heart_icon, .dog_icon {
@@ -195,3 +197,17 @@ input {
     padding: 20px 23px;
 }
 
+/*Available Style*/
+
+.avalaible {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left:2rem;
+    margin-top:1rem;
+}
+
+.icon_info {
+    margin-right : 15px;
+    color:#0065FC;
+}
