@@ -36,7 +36,7 @@ padding-right: 1rem;
 
 .header_link:hover {
     border-top:3px solid;
-    border-top-color: blue;
+    border-top-color: #0065FC;
     padding: 15px 20px;
 }
 
@@ -55,7 +55,7 @@ padding-right: 1rem;
 
 .header_link2:hover {
     border-top:3px solid;
-    border-top-color: blue;
+    border-top-color: #0065FC;
     padding: 15px 40px;
 }
 
@@ -69,4 +69,42 @@ padding-right: 1rem;
     text-decoration: none;
     color:inherit;
     padding: 15px 40px;
+}
+
+/*search bar style*/
+
+.search_countainer {
+    width:100%;
+    height: auto;
+    display:flex;
+    flex-direction: row;
+ 
+    }
+
+.pin_icon {
+    padding:10px 10px;
+    background-color : #f2f2f2;
+    padding: 15px 20px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
+}
+
+.search_bar {
+
+    border: 1px solid;
+    border-color: #f2f2f2;
+    padding: 15px 15px;
+
+}
+
+input {
+    border:0;
+}
+.search_button {
+    background-color:#0065FC;
+    border-color: transparent;
+    color:#f2f2f2;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
