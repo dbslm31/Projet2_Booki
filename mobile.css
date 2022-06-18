@@ -92,8 +92,115 @@ list-style:none;
 
 /*search bar style*/
 
-.search_countainer {
-display:flex;
-flex-direction: row;
+.search_section {
+    margin :2rem;
+    }
+    .h1{
+        font-weight:bolder;
+    }
+    .title1 p{
+        margin-top:10px;
+    }
+    
+    .search_countainer {
+        width:100%;
+        height: auto;
+        display:flex;
+        flex-direction: row;
+        margin-top:2rem;
+        }
+    
+    .pin_icon {
+        padding:10px 10px;
+        background-color : #f2f2f2;
+        padding: 15px 20px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        
+    }
+    
+    .search_bar {
+    
+        border: 1px solid;
+        border-color: #f2f2f2;
+        padding: 15px 15px;
+    
+    
+    }
+    
+    input {
+        border:0;
+    }
+    
+    .search_button {
+        background-color:#0065FC;
+        border-color: transparent;
+        color:#f2f2f2;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
 
+
+/*Filters Style*/
+
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:baseline;
+    font-weight: bold;
+    margin: 0;
+    padding-left:20px;
+    
+}
+
+.filters p {
+    margin-left:20px;
+}
+
+.filter_text {
+    display: flex;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: 2px solid;
+    border-left:none;
+    border-color:#f2f2f2;
+    border-top-right-radius:30px;
+    border-bottom-right-radius:30px;
+    padding-top:17px;
+    padding-bottom:17px;
+    font-weight: bolder;
+    
+    
+    
+}
+
+
+.filter1, .filter2, .filter3, .filter4  {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+
+.filter1 p, .filter2 p, .filter3 p, .filter4 p {
+    padding-left:0px;
+    
+}
+
+.dollar_icon, .family_icon, .heart_icon, .dog_icon {
+    padding : 19px 19px;
+    background-color:#DEEBFF;
+    color:#0065FC;
+    border-radius: 35px;
+    margin-left:12px;
+    position: absolute;
+    
+}
+
+.family_icon {
+    padding: 20px 23px;
 }

@@ -1,6 +1,8 @@
 *{
     box-sizing: border-box;
     font-family: "raleway";
+    s
+
 }
 .header{
     display: flex;
@@ -8,7 +10,7 @@
     justify-content: space-between;
 }
 .logo_container {
-    margin-left: 2rem;
+  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,12 +75,22 @@ padding-right: 1rem;
 
 /*search bar style*/
 
+.search_section {
+margin :2rem;
+}
+.h1{
+    font-weight:bolder;
+}
+.title1 p{
+    margin-top:10px;
+}
+
 .search_countainer {
     width:100%;
     height: auto;
     display:flex;
     flex-direction: row;
- 
+    margin-top:2rem;
     }
 
 .pin_icon {
@@ -96,11 +108,13 @@ padding-right: 1rem;
     border-color: #f2f2f2;
     padding: 15px 15px;
 
+
 }
 
 input {
     border:0;
 }
+
 .search_button {
     background-color:#0065FC;
     border-color: transparent;
@@ -108,3 +122,76 @@ input {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
+
+/*Filters Style*/
+
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:center;
+    font-weight: bold;
+    margin-left:2rem;
+    
+    
+    
+}
+
+.filter_text {
+    display: flex;
+    justify-content: stretch;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: 2px solid;
+    border-left:none;
+    border-color:#f2f2f2;
+    border-top-right-radius:30px;
+    border-bottom-right-radius:30px;
+    margin-right: 2rem;
+    margin-left:45px;
+    padding-top:2px;
+    font-weight: bolder;
+    
+    
+    
+}
+
+.filter_title {
+
+}
+
+.filters p {
+   
+    
+    
+}
+
+.filter1, .filter2, .filter3, .filter4  {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    align-items: center;
+
+}
+
+.filter1 p, .filter2 p, .filter3 p, .filter4 p {
+    padding-left:10px;
+    
+}
+
+.dollar_icon, .family_icon, .heart_icon, .dog_icon {
+    padding : 19px 19px;
+    background-color:#DEEBFF;
+    color:#0065FC;
+    border-radius: 45px;
+    margin-left:12px;
+    position: absolute;
+    
+}
+
+.family_icon {
+    padding: 20px 23px;
+}
+
