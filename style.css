@@ -9,6 +9,9 @@
 }
 .logo_container {
     margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -43,11 +46,13 @@ padding-right: 1rem;
     padding: 15px 20px;
 }
 
-.header_link2:visited {
+.header_link:visited {
     text-decoration: none;
     color:inherit;
-    padding: 15px 20px;
+    padding: 15px 40px;
 }
+
+
 .header_link2:hover {
     border-top:3px solid;
     border-top-color: blue;

@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    font-family: "raleway";
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.logo_container {
+    margin-left: 2rem;
+
+}
+
+.logo {
+    width:150px;
+
+}
+.navigation {
+    display:flex;
+    justify-content:center;
+    margin-right:1rem;
+}
+.nav_list{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    align-items:center;
+    
+
+
+}
+
+.nav_item {
+list-style:none;
+margin-right:1rem;
+padding-right: 1rem;
+margin-left: 1rem;
+}
+
+
+.header_link:hover {
+    border-bottom: 3px solid;
+    border-bottom-color: blue;
+    border-top:none;
+    padding: 15px 20px;
+}
+
+
+.header_link:link {
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+.header_link:visited {
+    text-decoration: none;
+    color:inherit;
+    padding: 15px 20px;
+}
+.header_link2:hover {
+    border-bottom: 3px solid;
+    border-bottom-color: blue;
+    border-top:none;
+    padding: 15px 20px;
+}
+
+
+.header_link2:link {
+    text-decoration: none;
+    padding: 15px 40px;
+}
+
+.header_link2:visited {
+    text-decoration: none;
+    color:inherit;
+    padding: 15px 40px;
+}

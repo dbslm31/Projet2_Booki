@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    font-family: "raleway";
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    
+}
+.logo_container {
+  
+
+}
+
+.logo {
+    width:150px;
+
+}
+.navigation {
+    display:flex;
+
+    
+}
+.nav_list{
+    display: flex;
+
+    
+
+
+}
+
+.nav_item {
+list-style:none;
+display:flex;
+
+}
+
+
+.header_link:hover {
+    border-bottom: 3px solid;
+    border-bottom-color: blue;
+    padding: 15px 0px;
+}
+
+
+.header_link:link {
+    text-decoration: none;
+    padding: 15px 0px;
+}
+
+.header_link:visited {
+    text-decoration: none;
+    color:inherit;
+    padding: 15px 0px;
+}
+.header_link2:hover {
+    border-bottom:3px solid;
+    border-bottom: blue;
+    padding: 15px 20px;
+}
+
+
+.header_link2:link {
+    text-decoration: none;
+    padding: 15px 40px;
+}
+
+.header_link2:visited {
+    text-decoration: none;
+    color:inherit;
+    padding: 15px 40px;
+}
