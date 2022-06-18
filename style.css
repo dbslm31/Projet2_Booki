@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    font-family: "raleway";
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo_container {
+    
+
+}
+
+.logo {
+    width:150px;
+
+}
+
+.nav_list{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.nav_item{
+list-style:none;
+margin-right:2rem;
+}
