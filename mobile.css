@@ -2,6 +2,7 @@
     box-sizing: border-box;
     font-family: "raleway";
     margin: 0;
+    padding:0;
 }
 /*header style*/
 
@@ -10,6 +11,8 @@
     flex-direction: column;
     justify-content:center;
     margin:0;
+    padding:0;
+    width:inherit;
 }
 .logo_container {
  
@@ -18,24 +21,51 @@
 .logo {
     width:150px;
 }
+
+.header_menu {
+    width: 100%;
+    display:flex;
+    justify-content:center;
+
+}
 .navigation {
     display:flex;
     justify-content:center;
+    width:100%;
     margin-top:2rem;
+    margin-right: 0;
+    margin-left: 0;
+   
+
 }
 
 .nav_list{
     display: flex;
-    justify-content:center;
+    justify-content:c;
     text-align: center;
     align-items:center;
     padding-bottom:15px;
     border-bottom: 3px solid;
     border-block-color: #F2F2F2;
+    margin:0;
+    padding:0;
+    width:100%;
 }
 
 .nav_item {
 list-style:none;
+display:flex;
+justify-content:center;
+margin:0;
+padding:0;
+width:50%;
+}
+.header_link, .header_link2 {
+    display:flex;
+    justify-content:center;
+    margin:0;
+    padding:0;
+    width:100%;
 }
 
 .header_link:hover {
