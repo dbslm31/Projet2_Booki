@@ -9,14 +9,8 @@
 .header{
     display: flex;
     flex-direction: column;
-    justify-content:center;
-    margin:0;
-    padding:0;
-    width:inherit;
 }
-.logo_container {
- 
-}
+
 
 .logo {
     width:150px;
@@ -29,33 +23,15 @@
 
 }
 .navigation {
-    display:flex;
-    justify-content:center;
-    width:100%;
     margin-top:2rem;
-    margin-right: 0;
-    margin-left: 0;
-   
-
 }
 
 .nav_list{
-    display: flex;
-    justify-content:c;
-    text-align: center;
-    align-items:center;
-    padding-bottom:15px;
-    border-bottom: 3px solid;
-    border-block-color: #F2F2F2;
-    margin:0;
-    padding:0;
     width:100%;
 }
 
 .nav_item {
 list-style:none;
-display:flex;
-justify-content:center;
 margin:0;
 padding:0;
 width:50%;
@@ -64,8 +40,9 @@ width:50%;
     display:flex;
     justify-content:center;
     margin:0;
-    padding:0;
     width:100%;
+    border-bottom: 3px solid;
+    border-block-color: #F2F2F2;
 }
 
 .header_link:hover {

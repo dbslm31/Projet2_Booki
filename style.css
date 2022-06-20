@@ -142,18 +142,12 @@ input {
 
 .filters {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items:center;
     font-weight: bold;
     margin-left:2rem;
     
 }
 
 .filter_text {
-    display: flex;
-    justify-content: stretch;
     padding-left: 2rem;
     padding-right: 2rem;
     border: 2px solid;
@@ -166,16 +160,6 @@ input {
     padding-top:2px;
     font-weight: bolder;
      
-}
-
-
-.filter1, .filter2, .filter3, .filter4  {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-
-    align-items: center;
-
 }
 
 .filter1 p, .filter2 p, .filter3 p, .filter4 p {
