@@ -196,25 +196,44 @@ input {
     color:#0065FC;
 }
 
+/*Section Accomodation Style*/
+.accomodations {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+    align-items:flex-start;
+}
+
 /*Hébergements Style*/
 
 .hotels {
     background-color: #F2F2F2;
- width: 100%;
+ width: 70%;
+ border-radius: 30px;
+}
+
+.hotels h2{
+    margin:20px;
+    padding-left: 20px;
 }
 
 .all_hotels_cards{
     display:flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin:15px;
+    padding-top:25px;
 }
 
 
 /*Cards Style*/
 
 .card {
-    width: 400px; /*1*/
-    margin: 0px auto; /*2*/
+    width: 28%; /*1*/
+    margin-bottom: 30px; /*2*/
+    margin-right:10px;
     padding:5px;
     border-radius: 20px;
     background-color: white; /*3*/
@@ -228,13 +247,13 @@ input {
 
   }
 .card-title h3{
-    margin:0;
-    padding-bottom:10px;
-    padding-top: 10px;
+    padding-bottom:5px;
+    
 }
 
 .card-price p{
     margin:0;
+    font-size: 14px;
     padding-bottom:10px;
 
 }
@@ -268,14 +287,12 @@ color: lightgray;
   }
 
   .card-image {
-    height: 200px;/*1*/
+    height: 100px;/*1*/
     position: relative;/*2*/
     overflow: hidden;/*3*/
     border-top-left-radius: 20px;
     border-top-right-radius: 20px ;
-    
-    
-    -radius: 20px;
+
   }
   .card-image img {
     width: 100%;/*4*/
@@ -285,24 +302,53 @@ color: lightgray;
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+
+  .show_more {
+    margin:40px;
+  }
+
+  .show_more {
+    color:#333;
+    text-decoration: none;
+    font-weight: bold;
+  }
 /*Popular Style*/
 
 .popular_hotels {
     background-color: #F2F2F2;
- width: 100%;
+    border-radius: 20px;
+    width: 30%;
+    margin-left:10px
+    
+}
+
+.popular_hotels h2 {
+padding-bottom:15px
 }
 
 .all_popular_cards{
+
     display:flex;
+    flex-direction:column;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    
 }
-  
+
+.popular_title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
 /*Popular Cards Style*/
 
 .card_popular {
-    width: 30%; /*1*/
-    margin: 0px auto; /*2*/
+    width: 90%; /*1*/
+    margin-top:10px;
+    margin-bottom:28px; /*2*/
     padding:5px;
     border-radius: 20px;
     background-color: white; /*3*/
@@ -316,7 +362,7 @@ color: lightgray;
 
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
     padding-right:5px;
 
@@ -325,7 +371,7 @@ color: lightgray;
     margin:0;
     padding-bottom:10px;
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 18px;
     word-wrap: break-word;
 }
 .card_popular_text {
@@ -343,7 +389,7 @@ color: lightgray;
 }
 
 .card-popular-rate {
-    margin-top:40px;
+    margin-top:25px;
     color:#0065FC;
 }
 
@@ -365,7 +411,7 @@ color: lightgray;
 
   .card_popular:hover .card-popular-image img { /*6*/
     width: 140%;
-    height:140%;
+    height:100%;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
     object-fit:initial;
