@@ -285,7 +285,18 @@ color: lightgray;
     left: 50%;
     transform: translate(-50%, -50%);
   }
+/*Popular Style*/
 
+.popular_hotels {
+    background-color: #F2F2F2;
+ width: 100%;
+}
+
+.all_popular_cards{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
   
 /*Popular Cards Style*/
 
@@ -332,6 +343,7 @@ color: lightgray;
 }
 
 .card-popular-rate {
+    margin-top:40px;
     color:#0065FC;
 }
 
@@ -360,14 +372,13 @@ color: lightgray;
   }
 
   .card-popular-image {
-    height: 150px;/*1*/
+    height: 140px;/*1*/
     width:140px;
-    object-fit:scale-down;
     overflow: hidden;/*3*/
   }
   .card-popular-image img {
     width: 140%;/*4*/
-    height:140%;
+    height:100%;
       /*5 - Méthode de centrage en fonction de la taille de l'image */
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
