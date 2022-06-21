@@ -361,7 +361,7 @@ padding-bottom:15px
     padding:5px;
     border-radius: 20px;
     background-color: white; /*3*/
-    box-shadow: 0px 5px 10px #999; /*4*/
+    box-shadow: 0px 5px 10px #e3e3e3; /*4*/
     
   }
 
@@ -447,25 +447,36 @@ color: lightgray;
 
   /*Activities Style*/
 
+  .activities-title h2{
+    margin-left:50px;
+    margin-top:50px;
+  }
   .activities_cards{
     display:flex;
     flex-direction: row;;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
+    align-items:flex-start;
     margin:10px;
-    padding-top:25px;
+    padding-top:0px;
 }
 
 .activity1, .activity2, .activity3, .activity4, .activity5, .activity6  {
-    width: 85%; /*1*/
+    width: 120%; /*1*/
     margin-top:10px;
     margin-bottom:28px; /*2*/
     padding:5px;
     background-color: white; /*3*/
-    box-shadow: 0px 5px 10px #999; /*4*/
+    box-shadow: 0px 5px 10px #e3e3e3; /*4*/
     border-radius: 20px;
+    margin-right:0;
+    margin-left:0;
     }
+
+    .activity1 h3, .activity2 h3, .activity3 h3, .activity4 h3, .activity5 h3, .activity6 h3{
+        margin-left:10px;
+        font-size: 16px;;
+    } 
   
 .activity1, .activity4 {
     width:20%;
@@ -474,7 +485,13 @@ color: lightgray;
 .activity2_3, .activity5_6 {
     display:flex;
     flex-direction: column;
+    justify-content: center;
+    align-items:center;
     width:20%;
+}
+
+.activity3 {
+    margin-top:5px;
 }
 
 
@@ -495,14 +512,15 @@ color: lightgray;
 }
 
 .activities_images_medium {
-    height: 200px;/*1*/
+    height: 150px;/*1*/
+    margin:0;
     position: relative;/*2*/
     overflow: hidden;/*3*/
     border-top-left-radius: 20px;
     border-top-right-radius: 20px ;}
     
 .activities_images_medium img{
-    width: 100%;/*4*/
+    width: 150%;/*4*/
     /*5 - Méthode de centrage en fonction de la taille de l'image */
     position: absolute;
     top: 50%;
@@ -511,17 +529,36 @@ color: lightgray;
 } 
 
 .activities_images_long {
-    height: 300px;/*1*/
+    height: 400px;/*1*/
+    margin:0;
     position: relative;/*2*/
     overflow: hidden;/*3*/
     border-top-left-radius: 20px;
     border-top-right-radius: 20px ;}
         
 .activities_images_long img{
-    width: 100%;/*4*/
+    width: 250%;/*4*/
     /*5 - Méthode de centrage en fonction de la taille de l'image */
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.activities_images_fort {
+    height: 205px;/*1*/
+    margin:0;
+    position: relative;/*2*/
+    overflow: hidden;/*3*/
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+
+.activities_images_fort img {
+    width: 150%;/*4*/
+    /*5 - Méthode de centrage en fonction de la taille de l'image */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
