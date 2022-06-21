@@ -226,70 +226,87 @@ width:50%;
 }
 
 
+/*Section Accomodation Style*/
+.accomodations {
+    display:flex;
+    flex-direction:column-reverse;
+    justify-content: center;
+    align-items:center;
+}
+
 /*Hébergements Style*/
 
 .hotels {
-    background-color: #F2F2F2;
+background-color: #F2F2F2;
+ width: 100%;
+ padding-bottom:30px;
+ border-radius: none;
+}
+
+.hotels h2{
+    margin:20px;
+    padding-left: 10px;
 }
 
 .all_hotels_cards{
     display:flex;
-    flex-wrap: wrap;
+    flex-direction:column;
     justify-content: center;
-
-
+    align-items: center;
+    padding-left:10px;
+    padding-top:25px;
 }
+
 
 /*Cards Style*/
 
 .card {
-    width: 90%; /*1*/
-    margin: 0px auto; /*2*/
-    margin-bottom: 20px;
+    width: 95%; /*1*/
+    margin-bottom: 30px; /*2*/
+    margin-right:10px;
     padding:5px;
     border-radius: 20px;
     background-color: white; /*3*/
     box-shadow: 0px 5px 10px rgb(208, 207, 207); /*4*/
 
+
   }
 
-  .card-body {;
-    margin: 0;
-    padding-top:1px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding-right:5px;
- 
-  }
-
-.card_text {
-    padding-right:5px;
-    padding-left:10px;
+  .card-body {
     
-}
-  
-.card-title h3{
-    margin:0;
-    padding-bottom:10px;
-    padding-top: 10px;
-    font-size: 20px;
-    word-wrap: break-word;
+    padding-bottom: 10px;
+    margin: 0;
 
+  }
+
+  .card_text {
+    margin-left:5px;
+    margin-top:5px;
+  }
+
+.card-title h3{
+    padding-bottom:5px;
+    font-size: 16px;
+    
 }
 
 .card-price p{
     margin:0;
+    font-size: 14px;
     padding-bottom:10px;
 
 }
+.price {
+    font-weight: bold;
+}
 
-.card-popular-rate {
-    margin-top:5px;
+.card-rate {
     color:#0065FC;
 }
 
+#gray_star {
+color: lightgray;
+}
   .card a { /*5*/
     color: #333; 
     text-decoration: none;
@@ -301,47 +318,79 @@ width:50%;
   }
 
   .card:hover .card-image img { /*6*/
-    width: 140%;
-    height:140%;
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
-    object-fit:initial;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .card-image {
-    height: 150px;/*1*/
-    width:340px;
-    object-fit:cover;
+    height: 100px;/*1*/
+    position: relative;/*2*/
     overflow: hidden;/*3*/
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px ;
 
   }
   .card-image img {
-    width: 140%;/*4*/
-    height:140%;
+    width: 100%;/*4*/
       /*5 - Méthode de centrage en fonction de la taille de l'image */
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
-    object-fit:initial;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
-  /*Popular Style*/
+
+
+  .show_more {
+    margin:40px;
+    color:#333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+/*Popular Style*/
 
 .popular_hotels {
     background-color: #F2F2F2;
- width: 100%;
+    border-radius: none;
+    width: 100%;
+    margin:20px;
+    padding-bottom:30px;
+    padding-top:20px;
+    
+}
+
+.popular_hotels h2 {
+padding-bottom:15px;
+padding-left:10px;
 }
 
 .all_popular_cards{
+
     display:flex;
+    flex-direction:column;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    
 }
-  
+
+.popular_title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right:30px;
+    padding-left:30px;
+}
 /*Popular Cards Style*/
 
 .card_popular {
-    width: 90%; /*1*/
-    margin: 0px auto; /*2*/
+    width: 85%; /*1*/
+    margin-top:10px;
+    margin-bottom:28px; /*2*/
     padding:5px;
     border-radius: 20px;
     background-color: white; /*3*/
@@ -355,7 +404,7 @@ width:50%;
 
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
     padding-right:5px;
 
@@ -364,12 +413,12 @@ width:50%;
     margin:0;
     padding-bottom:10px;
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 16px;
     word-wrap: break-word;
 }
 .card_popular_text {
     padding-right:5px;
-    padding-left:10px;
+    padding-left:20px;
 }
 
 .card-popular-price p{
@@ -382,7 +431,7 @@ width:50%;
 }
 
 .card-popular-rate {
-    margin-top:20px;
+    margin-top:15px;
     color:#0065FC;
 }
 
@@ -404,7 +453,7 @@ color: lightgray;
 
   .card_popular:hover .card-popular-image img { /*6*/
     width: 140%;
-    height:140%;
+    height:100%;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
     object-fit:initial;
@@ -423,3 +472,5 @@ color: lightgray;
     border-top-left-radius: 20px;
     object-fit:initial;
   }
+
+

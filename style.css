@@ -210,12 +210,15 @@ input {
 .hotels {
     background-color: #F2F2F2;
  width: 70%;
+ margin:20px;
  border-radius: 30px;
+ padding-top:0px;
+ padding-bottom:25px;
 }
 
 .hotels h2{
     margin:20px;
-    padding-left: 20px;
+    padding-left: 15px;
 }
 
 .all_hotels_cards{
@@ -223,7 +226,7 @@ input {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    margin:15px;
+    margin:10px;
     padding-top:25px;
 }
 
@@ -231,7 +234,7 @@ input {
 /*Cards Style*/
 
 .card {
-    width: 28%; /*1*/
+    width: 30%; /*1*/
     margin-bottom: 30px; /*2*/
     margin-right:10px;
     padding:5px;
@@ -247,7 +250,10 @@ input {
 
   }
 .card-title h3{
-    padding-bottom:5px;
+    
+    margin:auto;
+    padding:10px;
+    font-size: 18px;;
     
 }
 
@@ -255,6 +261,7 @@ input {
     margin:0;
     font-size: 14px;
     padding-bottom:10px;
+    padding-left:10px;
 
 }
 .price {
@@ -263,6 +270,7 @@ input {
 
 .card-rate {
     color:#0065FC;
+    padding-left:10px;
 }
 
 #gray_star {
@@ -304,11 +312,9 @@ color: lightgray;
   }
 
 
-  .show_more {
-    margin:40px;
-  }
 
   .show_more {
+    margin:40px;
     color:#333;
     text-decoration: none;
     font-weight: bold;
@@ -319,7 +325,8 @@ color: lightgray;
     background-color: #F2F2F2;
     border-radius: 20px;
     width: 30%;
-    margin-left:10px
+    margin:20px;
+    padding-bottom:30px;
     
 }
 
@@ -340,13 +347,15 @@ padding-bottom:15px
 .popular_title{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding-right:30px;
+    padding-left:30px;
 }
 /*Popular Cards Style*/
 
 .card_popular {
-    width: 90%; /*1*/
+    width: 85%; /*1*/
     margin-top:10px;
     margin-bottom:28px; /*2*/
     padding:5px;
@@ -370,18 +379,23 @@ padding-bottom:15px
 .card-popular-title h3{
     margin:0;
     padding-bottom:10px;
+    margin-right:45px;
     padding-top: 10px;
-    font-size: 18px;
+    font-size: 16px;
     word-wrap: break-word;
 }
 .card_popular_text {
     padding-right:5px;
     padding-left:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .card-popular-price p{
     margin:0;
-    padding-bottom:10px;
+    padding-bottom:25px;
+    font-size: 14px;
 
 }
 .price {
@@ -389,7 +403,7 @@ padding-bottom:15px
 }
 
 .card-popular-rate {
-    margin-top:25px;
+    
     color:#0065FC;
 }
 
@@ -418,8 +432,8 @@ color: lightgray;
   }
 
   .card-popular-image {
-    height: 140px;/*1*/
-    width:140px;
+    height: 120px;/*1*/
+    width:120px;
     overflow: hidden;/*3*/
   }
   .card-popular-image img {
@@ -430,3 +444,84 @@ color: lightgray;
     border-top-left-radius: 20px;
     object-fit:initial;
   }
+
+  /*Activities Style*/
+
+  .activities_cards{
+    display:flex;
+    flex-direction: row;;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin:10px;
+    padding-top:25px;
+}
+
+.activity1, .activity2, .activity3, .activity4, .activity5, .activity6  {
+    width: 85%; /*1*/
+    margin-top:10px;
+    margin-bottom:28px; /*2*/
+    padding:5px;
+    background-color: white; /*3*/
+    box-shadow: 0px 5px 10px #999; /*4*/
+    border-radius: 20px;
+    }
+  
+.activity1, .activity4 {
+    width:20%;
+}
+
+.activity2_3, .activity5_6 {
+    display:flex;
+    flex-direction: column;
+    width:20%;
+}
+
+
+.activities_images_small {
+    height: 100px;/*1*/
+    position: relative;/*2*/
+    overflow: hidden;/*3*/
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px ;}
+
+.activities_images_small img{
+    width: 100%;/*4*/
+    /*5 - Méthode de centrage en fonction de la taille de l'image */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.activities_images_medium {
+    height: 200px;/*1*/
+    position: relative;/*2*/
+    overflow: hidden;/*3*/
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px ;}
+    
+.activities_images_medium img{
+    width: 100%;/*4*/
+    /*5 - Méthode de centrage en fonction de la taille de l'image */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+
+.activities_images_long {
+    height: 300px;/*1*/
+    position: relative;/*2*/
+    overflow: hidden;/*3*/
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px ;}
+        
+.activities_images_long img{
+    width: 100%;/*4*/
+    /*5 - Méthode de centrage en fonction de la taille de l'image */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
