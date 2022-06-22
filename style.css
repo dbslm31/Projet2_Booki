@@ -169,6 +169,10 @@ input {
      
 }
 
+.filter_text:hover {
+color:#0065FC;
+}
+
 .filter1 p, .filter2 p, .filter3 p, .filter4 p {
     padding-left:10px;
  
@@ -481,10 +485,16 @@ color: lightgray;
     margin-left:0;
     }
 
-    .activity1 h3, .activity2 h3, .activity3 h3, .activity4 h3, .activity5 h3, .activity6 h3{
-        margin-left:10px;
-        font-size: 16px;;
-    } 
+.activity1 h3, .activity2 h3, .activity3 h3, .activity4 h3, .activity5 h3, .activity6 h3{
+    margin-left:10px;
+    font-size: 16px;;
+} 
+
+.activity1 a, .activity2 a, .activity3 a, .activity4 a, .activity5 a, .activity6 a  {
+    color:#333;
+    text-decoration:none;
+
+}
   
 .activity1, .activity4 {
     width:20%;

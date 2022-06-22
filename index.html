@@ -8,7 +8,8 @@
     <!--Balise pour liée index.html à normalize.css et style.css-->
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" media="screen and (max-width: 992px)" href="mobile.css" />
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css" />
+    <link rel="stylesheet" media="screen and (max-width: 992px)" href="tablette.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,8 +28,8 @@
         <div class="navigation">
         <nav class="header_menu">
             <ul class="nav_list">
-                <li class="nav_item"><a class="header_link" href="#">Hébergements</a></li>
-                <li class="nav_item"><a class="header_link2" href="#">Activités</a></li>
+                <li class="nav_item"><a class="header_link" href="#hotels_marseille">Hébergements</a></li>
+                <li class="nav_item"><a class="header_link2" href="#activities_marseille">Activités</a></li>
             </ul>
         </nav>
     </div>
@@ -45,11 +46,13 @@
             <i class="fa-solid fa-location-dot"></i>
         </div>
         <div class="search_bar">
+            <form>
         <input type="search" classe="search_text" placeholder="Marseille, France">
+    
     </div>
         <button class="search_button">Rechercher</button>
         <button class="search_mobile"><i class="fa-solid fa-magnifying-glass"></i></button>
-    
+    </form>
     </div>
         </div>
     </section>
@@ -57,7 +60,7 @@
         <!--Section Filters-->
     <section class="filters">
 
-<p>Filtres</p>
+<div class=filter_title><p>Filtres</p></div>
 
 <div class="filter1">
     <div class="dollar_icon">
@@ -102,7 +105,7 @@
 </div>
 
 <!--Section Hébergements Disponibles-->
-<section class=accomodations>
+<section class=accomodations id="hotels_marseille">
 <!-- Division Hébergments à Marseille-->
 <div class="hotels">
     <!-- Titre Hotels H2 -->
@@ -456,7 +459,7 @@
 <!--Fin de Section Hébergements Disponibles-->
 
 <!--Section Activités à Marseille-->
-<section class="activities">
+<section id="activities_marseille" class="activities">
     <!--Titre H2 Activities-->
 <div class="activities-title">
     <h2>Activités à Marseilles</h2>
@@ -464,40 +467,53 @@
     <!--Activities Tab-->
 <div class="activities_cards">
     <!--Activity 1-->
+    
     <div class="activity1">
+    <a href="#">
         <div class="activities_images_long"><img src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Le Vieux Port" /></div>
         <h3>Vieux Port</h3>
     </div>
+</a>
     <!--Activity 2 and 3-->
     <div class="activity2_3">
         <div class="activity2">
-            <div class="activities_images_fort"><img src="images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues" /></div>
+            <a href="#">
+            <div class="activities_images_fort"><img src="images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues" />
+            </div>
             <h3>Fort de Pomègues</h3>
         </div>
+    </a>
         <div class="activity3">
+            <a href="#">
             <div class="activities_images_small"><img src="images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Îles du Frioul" /></div>
             <h3>Îles du Frioul</h3>
+        
         </div>
     </div>
+</a>
     <!--Activity 4-->
     <div class="activity4">
-        
+        <a href="#">
             <div class="activities_images_long"><img src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques" /></div>
             <h3>Parc National des Calanques</h3>
         
 
     </div>
-    
+</a>
     <!--Activity 5 and 6-->
     <div class="activity5_6">
     <div class="activity5">
+        <a href="#">
         <div class="activities_images_medium"><img src="images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde" /></div>
         <h3>Notre-Dame-de-la-Garde</h3>
     </div>
+</a>
     <div class="activity6">
+        <a href="#">
         <div class="activities_images_medium"><img src="images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamps" /></div>
         <h3>Parc Longchamps</h3>
     </div>
+</a>
 </div>
 </div>
 <!--Fin Activities Tab-->
