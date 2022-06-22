@@ -403,7 +403,7 @@ padding-left:10px;
 /*Popular Cards Style*/
 
 .card_popular {
-    width: 85%; /*1*/
+    width: 90%; /*1*/
     margin-top:10px;
     margin-bottom:28px; /*2*/
     padding:5px;
@@ -553,7 +553,7 @@ color: lightgray;
     background:#F2F2F2;
     margin-top:30px;
     padding-top:30px;
-    padding-bottom:20px;
+    padding-bottom:30px;
     display:flex;
     flex-direction:column;
     justify-content:space-around;
