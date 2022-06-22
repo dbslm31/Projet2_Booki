@@ -1,7 +1,6 @@
 *{
     box-sizing: border-box;
     font-family: "raleway";
-    s
 
 }
 .header{
@@ -14,6 +13,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top10px;
+    margin-left:20px;
 
 }
 
@@ -26,6 +27,7 @@
     display: flex;
     justify-content:space-between;
     align-items:center;
+    margin-top:10px;
 
 }
 
@@ -35,11 +37,15 @@ margin-right:1rem;
 padding-right: 1rem;
 }
 
+.nav_item:hover {
+    color:#0065FC;
+    }
 
 .header_link:hover {
+    
     border-top:3px solid;
     border-top-color: #0065FC;
-    padding: 15px 20px;
+    
 }
 
 
@@ -56,9 +62,10 @@ padding-right: 1rem;
 
 
 .header_link2:hover {
+    
     border-top:3px solid;
     border-top-color: #0065FC;
-    padding: 15px 40px;
+    
 }
 
 
@@ -573,7 +580,7 @@ color: lightgray;
     padding-bottom:20px;
     display:flex;
     flex-direction:row;
-    justify-content:space-around;
+    justify-content:flex-start;
     align-items: flex-start;
 }
 
@@ -584,6 +591,14 @@ color: lightgray;
 
 .about h3, .our_hotels h3, .help h3{
     font-size:16px;
+}
+
+.about, .our_hotels, .help{
+    margin-right:280px;
+}
+
+.about {
+    margin-left: 50px;
 }
 
 .footer_item {
