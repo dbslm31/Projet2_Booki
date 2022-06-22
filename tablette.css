@@ -304,13 +304,13 @@ width:50%;
 
 .card-title h3{
     padding-bottom:5px;
-    font-size: 16px;
+    font-size: 18px;
     
 }
 
 .card-price p{
     margin:0;
-    font-size: 14px;
+    font-size: 16px;
     padding-bottom:10px;
 
 }
@@ -431,7 +431,7 @@ padding-left:10px;
     margin:0;
     padding-bottom:10px;
     padding-top: 10px;
-    font-size: 16px;
+    font-size: 18px;
     word-wrap: break-word;
 }
 .card_popular_text {
@@ -441,6 +441,7 @@ padding-left:10px;
 
 .card-popular-price p{
     margin:0;
+    font-size: 16px;
     padding-bottom:10px;
 
 }
@@ -449,7 +450,7 @@ padding-left:10px;
 }
 
 .card-popular-rate {
-    margin-top:15px;
+    margin-top:35px;
     color:#0065FC;
 }
 
@@ -491,12 +492,12 @@ color: lightgray;
     object-fit:initial;
   }
 
-
     /*Activities Style*/
 
     .activities-title h2{
         margin-left:40px;
         margin-top:50px;
+        
       }
       .activities_cards{
         display:flex;
@@ -507,6 +508,13 @@ color: lightgray;
         margin:10px;
         padding-top:0px;
     }
+
+    .activity1 h3, .activity2 h3, .activity3 h3, .activity4 h3, .activity5 h3, .activity6 h3{
+        margin-left:10px;
+        font-size: 18px;
+        margin-top:10px;
+        margin-bottom:10px;
+    } 
     
     .activity1, .activity2, .activity3, .activity4, .activity5, .activity6  {
         width: 90%; /*1*/
@@ -535,7 +543,7 @@ color: lightgray;
         }
 
     .activities_images_small, .activities_images_medium, .activities_images_long, .activities_images_fort  {
-        height: 150px;/*1*/
+        height: 200px;/*1*/
         position: relative;/*2*/
         overflow: hidden;/*3*/
         border-top-left-radius: 20px;
@@ -545,7 +553,7 @@ color: lightgray;
         width: 100%;/*4*/
         /*5 - Méthode de centrage en fonction de la taille de l'image */
         position: absolute;
-        top: 50%;
+        top: 6%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
