@@ -459,6 +459,7 @@ color: lightgray;
     align-items:flex-start;
     margin:10px;
     padding-top:0px;
+    margin-bottom:20px;
 }
 
 .activity1, .activity2, .activity3, .activity4, .activity5, .activity6  {
@@ -562,3 +563,39 @@ color: lightgray;
     left: 50%;
     transform: translate(-50%, -50%)
 }
+
+/*Footer Style*/
+
+.footer {
+    background:#F2F2F2;
+    margin-top:30px;
+    padding-top:30px;
+    padding-bottom:20px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: flex-start;
+}
+
+.footer_menu{
+    padding-left:0;
+    list-style:none;
+}
+
+.about h3, .our_hotels h3, .help h3{
+    font-size:16px;
+}
+
+.footer_item {
+    
+    margin-top:10px;
+    font-size:13px;
+}
+
+.footer_link:visited, .footer_link:link, .footer_link:hover {
+    text-decoration:none;
+    color:#333
+    
+    
+}
+

@@ -238,7 +238,7 @@ width:50%;
 
 .hotels {
  width: 100%;
- padding-bottom:30px;
+ padding-bottom:0px;
  border-radius: none;
  background-color: #fff;
 }
@@ -477,7 +477,7 @@ color: lightgray;
     /*Activities Style*/
 
     .activities-title h2{
-        margin-left:20px;
+        margin-left:40px;
         margin-top:50px;
       }
       .activities_cards{
