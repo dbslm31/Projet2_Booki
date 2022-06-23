@@ -106,7 +106,7 @@ width:50%;
 
 .search_section {
     margin :30px;
-    width:80% auto;
+    width:80%;
     }
     .h1{
         font-weight:bolder;
@@ -182,9 +182,15 @@ width:50%;
     
 }
 
+.filters h4 {
+    margin-left:20px;
+}
+
+
 .filters p {
     margin-left:20px;
 }
+
 
 .filter_text {
     display: flex;
@@ -213,7 +219,7 @@ width:50%;
 
 }
 .filter4 {
-    margin-left:65px;
+    margin-left:75px;
 }
 .filter1 p, .filter2 p, .filter3 p, .filter4 p {
     padding-left:0px;
@@ -262,7 +268,7 @@ width:50%;
 .hotels {
  width: 100%;
  padding-bottom:0px;
- border-radius: none;
+ border-radius: 0px;
  background-color: #fff;
 }
 
@@ -377,7 +383,7 @@ color: lightgray;
 
 .popular_hotels {
     background-color: #F2F2F2;
-    border-radius: none;
+    border-radius: 0px;
     width: 100%;
     margin:20px;
     padding-bottom:30px;

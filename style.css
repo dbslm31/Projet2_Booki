@@ -9,7 +9,6 @@
 }
 .logo_container {
   
-    margin-top10px;
     margin-left:20px;
 
 }
@@ -272,7 +271,7 @@ color:#0065FC;
     padding-left:10px;
 }
 
-#gray_star {
+.gray_star {
 color: lightgray;
 }
   .card a { /*5*/
