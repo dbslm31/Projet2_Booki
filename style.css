@@ -5,14 +5,10 @@
 }
 .header{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
 .logo_container {
   
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top10px;
     margin-left:20px;
 

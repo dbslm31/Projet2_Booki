@@ -338,7 +338,7 @@ color: lightgray;
   .card:hover .card-image img { /*6*/
     width: 100%;
     position: absolute;
-    top: 50%;
+    top: 6%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -400,7 +400,7 @@ padding-left:10px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-right:30px;
+    padding-right:40px;
     padding-left:30px;
 }
 /*Popular Cards Style*/
@@ -442,7 +442,7 @@ padding-left:10px;
 .card-popular-price p{
     margin:0;
     font-size: 16px;
-    padding-bottom:10px;
+    padding-bottom:40px;
 
 }
 .price {
@@ -450,7 +450,7 @@ padding-left:10px;
 }
 
 .card-popular-rate {
-    margin-top:35px;
+    margin-top:45px;
     color:#0065FC;
 }
 
@@ -471,25 +471,24 @@ color: lightgray;
   }
 
   .card_popular:hover .card-popular-image img { /*6*/
-    width: 140%;
-    height:100%;
+    width: 140%;/*4*/
+    height:150%;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
     object-fit:initial;
   }
 
   .card-popular-image {
-    height: 140px;/*1*/
-    width:140px;
+    height: 180px;/*1*/
+    width:190px;
     overflow: hidden;/*3*/
   }
   .card-popular-image img {
     width: 140%;/*4*/
     height:100%;
-      /*5 - Méthode de centrage en fonction de la taille de l'image */
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
-    object-fit:initial;
+    
   }
 
     /*Activities Style*/
@@ -564,12 +563,11 @@ color: lightgray;
     background:#F2F2F2;
     margin-top:30px;
     padding-top:30px;
-    padding-bottom:30px;
+    padding-bottom:20px;
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
     justify-content:space-around;
     align-items: flex-start;
-    
 }
 
 .footer_menu{
@@ -578,24 +576,21 @@ color: lightgray;
 }
 
 .about h3, .our_hotels h3, .help h3{
-    font-size:18px;
+    font-size:16px;
 }
 
-.our_hotels, .help {
-    margin-top:40px;
-    margin-left:30px;
-    margin-right:0;
+.about, .our_hotels, .help{
+    margin-right:20px;
 }
 
 .about {
-    margin-left:30px;
-    margin-right:0;
+    margin-left: 20px;
 }
 
 .footer_item {
     
     margin-top:10px;
-    font-size:15px;
+    font-size:13px;
 }
 
 .footer_link:visited, .footer_link:link, .footer_link:hover {
