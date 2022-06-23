@@ -11,12 +11,9 @@
     flex-direction: column;
 }
 
-.logo_container {
-    display: flex;
-    justify-content: center;
-}
+
 .logo {
-    width:100px;
+    width:150px;
 }
 
 .header_menu {
@@ -26,7 +23,7 @@
 
 }
 .navigation {
-    margin-top:20px;
+    margin-top:2rem;
 }
 
 .nav_list{
@@ -103,7 +100,7 @@ width:50%;
 /*search bar style*/
 
 .search_section {
-    margin :30px;
+    margin :2rem;
     }
     .h1{
         font-weight:bolder;
@@ -118,7 +115,7 @@ width:50%;
         display:flex;
         flex-direction: row;
         justify-content:flex-start;
-        margin-top:30px;
+        margin-top:2rem;
         }
     
     .pin_icon {
@@ -204,9 +201,7 @@ width:50%;
     
     
 }
-.filter1 {
-    margin-left:0;
-}
+
 
 .filter1, .filter2, .filter3, .filter4  {
     display: flex;
