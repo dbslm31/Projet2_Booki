@@ -30,6 +30,7 @@
 list-style:none;
 margin-right:1rem;
 padding-right: 1rem;
+color:#000;
 }
 
 .nav_item:hover {
@@ -45,6 +46,7 @@ padding-right: 1rem;
 
 
 .header_link:link {
+    color:#000;
     text-decoration: none;
     padding: 15px 20px;
 }
@@ -65,6 +67,7 @@ padding-right: 1rem;
 
 
 .header_link2:link {
+    color:#000;
     text-decoration: none;
     padding: 15px 40px;
 }
@@ -112,9 +115,15 @@ margin :2rem;
 
 
 }
+.search_text {
+    width:max-content;
+}
 
 input {
     border:0;
+    display:flex;
+    width: max-content;
+
 }
 
 .search_button {
@@ -123,6 +132,12 @@ input {
     color:#f2f2f2;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+}
+
+.search_button a {
+    color:#f2f2f2;
+    font-weight:bold;
+    text-decoration:none;
 }
 
 .search_mobile {

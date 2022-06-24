@@ -149,6 +149,8 @@ width:50%;
         border-bottom-right-radius: 15px;
     }
 
+
+
     .search_mobile {
         display:flex;
         align-items:center;
@@ -159,6 +161,11 @@ width:50%;
         padding-left:15px;
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;    
+    }
+
+
+    .fa-magnifying-glass:before, .fa-search:before {
+        color:#f2f2f2;
     }
 
 
