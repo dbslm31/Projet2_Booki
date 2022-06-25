@@ -377,7 +377,7 @@ padding-bottom:15px
 }
 
 .all_popular_cards{
-
+    margin-top:20px;
     display:flex;
     flex-direction:column;
     flex-wrap: wrap;
@@ -409,8 +409,6 @@ padding-bottom:15px
 
   .card-popular-body {
     
-    margin: 0;
-
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -418,12 +416,14 @@ padding-bottom:15px
     padding-right:5px;
 
   }
+
+
 .card-popular-title h3{
-    margin:0;
+    margin-top:0;
     padding-bottom:10px;
-    margin-right:45px;
+
     padding-top: 10px;
-    font-size: 16px;
+    font-size: 18px auto;
     word-wrap: break-word;
 }
 .card_popular_text {
@@ -659,4 +659,3 @@ color: lightgray;
     
     
 }
-
