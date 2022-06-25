@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     font-family: "raleway";
+    margin-bottom: 0px;
 
 }
 .header{
@@ -160,19 +161,26 @@ input {
 .filters {
     display: flex;
     font-weight: bold;
-    margin-left:2rem;
+    margin-left:32px;
     
 }
 
+.filter_link {
+    color:#000;
+    text-decoration:none;
+    font-size:15px;
+}
+
 .filter_text {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom:16px;
     border: 2px solid;
     border-left:none;
     border-color:#f2f2f2;
     border-top-right-radius:30px;
     border-bottom-right-radius:30px;
-    margin-right: 2rem;
+    margin-right: 32px;
     margin-left:45px;
     padding-top:2px;
     font-weight: bolder;
@@ -199,7 +207,7 @@ color:#0065FC;
 }
 
 .family_icon {
-    padding: 20px 23px;
+    padding: 19px 23px;
 }
 
 /*Available Style*/
@@ -449,7 +457,7 @@ color: lightgray;
     height:100%;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
-    object-fit:initial;
+    object-fit:cover;
   }
 
   .card-popular-image {
@@ -463,7 +471,7 @@ color: lightgray;
       /*5 - Méthode de centrage en fonction de la taille de l'image */
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
-    object-fit:initial;
+    object-fit:cover;
   }
 
   /*Activities Style*/
@@ -598,6 +606,7 @@ color: lightgray;
     margin-top:30px;
     padding-top:30px;
     padding-bottom:20px;
+    margin-bottom:0px;
     display:flex;
     flex-direction:row;
     justify-content:flex-start;

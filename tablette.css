@@ -162,6 +162,10 @@ width:50%;
         border-bottom-right-radius: 15px;    
     }
 
+    .fa-magnifying-glass:before, .fa-search:before {
+        color:#f2f2f2;
+    }
+
 
 /*Filters Style*/
 
@@ -183,7 +187,7 @@ width:50%;
 
 
 .filters p {
-    margin-left:20px;
+    margin-left:15px;
 }
 
 
@@ -200,8 +204,6 @@ width:50%;
     padding-bottom:17px;
     font-weight: bolder;
     
-    
-    
 }
 
 
@@ -214,7 +216,7 @@ width:50%;
 
 }
 .filter4 {
-    margin-left:75px;
+    margin-left:65px;
 }
 .filter1 p, .filter2 p, .filter3 p, .filter4 p {
     padding-left:0px;
