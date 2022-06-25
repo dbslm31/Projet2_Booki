@@ -140,6 +140,10 @@ width:50%;
     input {
         border:0;
     }
+
+    textarea:focus, input:focus {
+        outline:none;
+    }
     
     .search_button {
         display:none;
