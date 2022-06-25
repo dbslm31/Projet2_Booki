@@ -14,11 +14,12 @@
   
     display: flex;
     justify-content: center;
+    margin-top:15px;
 
 }
 
 .logo {
-    width:150px;
+    width:100px;
 }
 
 .header_menu {
@@ -28,7 +29,7 @@
 
 }
 .navigation {
-    margin-top:2rem;
+    margin-top:15px;
 }
 
 .nav_list{
