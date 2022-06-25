@@ -37,12 +37,14 @@ color:#000;
 
 .nav_item:hover {
     color:#0065FC;
-    }
+ }
+
 
 .header_link:hover {
     
     border-top:3px solid;
     border-top-color: #0065FC;
+    color:#0065FC;
     
 }
 
@@ -64,6 +66,7 @@ color:#000;
     
     border-top:3px solid;
     border-top-color: #0065FC;
+    color:#0065FC;
     
 }
 
