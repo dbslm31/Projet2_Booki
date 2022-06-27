@@ -2,12 +2,15 @@
     box-sizing: border-box;
     font-family: "raleway";
     margin-bottom: 0px;
-    max-width:1900px;
+    margin-right:0;
+    margin-left:0;
 
 }
 .header{
+    margin-top:10px;
     display: flex;
     justify-content: space-between;
+    
 }
 .logo_container {
   
@@ -16,9 +19,10 @@
 }
 
 .logo {
-    width:150px;
+    width:100px;
 
 }
+
 
 .nav_list{
     display: flex;
@@ -224,7 +228,7 @@ background-color:#f2f2f2;
 }
 
 .family_icon {
-    padding: 16px 23px;
+    padding: 20px 23px;
 }
 
 /*Available Style*/
@@ -249,22 +253,23 @@ background-color:#f2f2f2;
     flex-wrap:nowrap;
     justify-content: space-around;
     align-items:flex-start;
+    margin-bottom:20px;
 }
 
 /*Hébergements Style*/
 
 .hotels {
-    background-color: #F2F2F2;
- width: 80%;
- margin:20px;
+ background-color: #F2F2F2;
+ width: 65%;
+ margin:30px;
  border-radius: 30px;
  padding-top:0px;
- padding-bottom:37px;
+ padding-bottom:30px;
 }
 
 .hotels h2{
     margin:20px;
-    padding-left: 15px;
+    padding-left: 30px;
 }
 
 .all_hotels_cards{
@@ -272,18 +277,20 @@ background-color:#f2f2f2;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    margin:10px;
+    margin-right:0;
+    margin-bottom:30px;
     padding-top:25px;
-    padding-bottom:10px;
+    padding-bottom:0px;
 }
 
 
 /*Cards Style*/
 
 .card {
-    width: 30%; /*1*/
+    width: 28%; /*1*/
     margin-bottom: 30px; /*2*/
-   
+    margin-right: 20px;
+    margin-left: 20px;
     padding:5px;
     border-radius: 20px;
     background-color: white; /*3*/
@@ -361,7 +368,8 @@ color: lightgray;
 
 
   .show_more {
-    margin:40px;
+    margin:30px;
+    padding-left:20px;
     color:#333;
     text-decoration: none;
     font-weight: bold;
@@ -372,12 +380,13 @@ color: lightgray;
     background-color: #F2F2F2;
     border-radius: 30px;
     width: 30%;
-    margin:20px;
+    margin:30px;
     padding-bottom:30px;
     
 }
 
 .popular_hotels h2 {
+padding-left:10px;
 padding-bottom:15px
 }
 
@@ -508,18 +517,18 @@ color: lightgray;
   /*Activities Style*/
 
   .activities-title h2{
-    margin-left:50px;
-    margin-top:50px;
+    margin-left:60px;
+    margin-top:15px;
+    margin-bottom:15px;
   }
   .activities_cards{
+    width:100%;
     display:flex;
     flex-direction: row;;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items:flex-start;
-    margin:10px;
-    padding-top:0px;
-    margin-bottom:20px;
+
 }
 
 .activity1, .activity2, .activity3, .activity4, .activity5, .activity6  {
@@ -531,12 +540,13 @@ color: lightgray;
     box-shadow: 0px 5px 10px #e3e3e3; /*4*/
     border-radius: 20px;
     margin-right:0;
-    margin-left:0;
+    margin-left:5px;
     }
 
 .activity1 h3, .activity2 h3, .activity3 h3, .activity4 h3, .activity5 h3, .activity6 h3{
     margin-left:10px;
-    font-size: 16px;;
+    margin-bottom:10px;
+    font-size: 16px;
 } 
 
 .activity1 a, .activity2 a, .activity3 a, .activity4 a, .activity5 a, .activity6 a  {
@@ -558,7 +568,7 @@ color: lightgray;
 }
 
 .activity3 {
-    margin-top:20px;
+    margin-top:12px;
 }
 
 .activity6 {
@@ -640,7 +650,7 @@ color: lightgray;
     background:#F2F2F2;
     margin-top:30px;
     padding-top:30px;
-    padding-bottom:20px;
+    padding-bottom:40px;
     margin-bottom:0px;
     display:flex;
     flex-direction:row;
