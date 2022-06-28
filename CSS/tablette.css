@@ -311,7 +311,7 @@ input:focus {
 
 .hotels h2 {
 
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 .all_hotels_cards {
@@ -331,7 +331,7 @@ input:focus {
 .card {
     width: 95%;
     /*1*/
-    margin-bottom: 0px;
+    margin-bottom: 30px;
     /*2*/
     margin-right: 10px;
     padding: 5px;
@@ -447,7 +447,7 @@ input:focus {
 
 .popular_hotels h2 {
     padding-bottom: 15px;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 .all_popular_cards {

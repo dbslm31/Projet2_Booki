@@ -437,7 +437,7 @@ input:focus {
 
 
 .show_more {
-    margin: 20px;
+    margin-left: 20px;
     color: #333;
     text-decoration: none;
     font-weight: bold;
