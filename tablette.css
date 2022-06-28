@@ -58,10 +58,12 @@
 }
 
 .header_link:hover {
+    
     border-bottom: 3px solid;
     border-bottom-color: #0065FC;
     border-top: none;
     padding: 15px 20px;
+    color: #0065FC !important;
 }
 
 
@@ -81,13 +83,16 @@
     border-bottom-color: #0065FC;
     border-top: none;
     padding: 15px 20px;
+    color: #0065FC !important;
 }
 
 .header_link2:hover {
+    
     border-bottom: 3px solid;
     border-bottom-color: #0065FC;
     border-top: none;
     padding: 15px 40px;
+    color: #0065FC !important;
 }
 
 
@@ -107,6 +112,7 @@
     border-bottom-color: #0065FC;
     border-top: none;
     padding: 15px 40px;
+    color: #0065FC !important;
 }
 
 /*search bar style*/
@@ -125,6 +131,7 @@
 }
 
 .search_countainer {
+    position: relative;
     width: 100%;
     height: auto;
     display: flex;

@@ -63,6 +63,7 @@
     border-bottom-color: #0065FC;
     border-top: none;
     padding: 15px 20px;
+    color: #0065FC !important;
 }
 
 
@@ -82,6 +83,7 @@
     border-bottom-color: #0065FC;
     border-top: none;
     padding: 15px 20px;
+    color: #0065FC !important;
 }
 
 .header_link2:hover {
@@ -89,6 +91,7 @@
     border-bottom-color: #0065FC;
     border-top: none;
     padding: 15px 40px;
+    color: #0065FC !important;
 }
 
 
@@ -108,6 +111,8 @@
     border-bottom-color: #0065FC;
     border-top: none;
     padding: 15px 40px;
+    color: #0065FC !important;
+
 }
 
 /*search bar style*/
@@ -125,12 +130,13 @@
 }
 
 .search_countainer {
+    position: relative;
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin-top: 2rem;
+    margin-top: 30px;
 }
 
 .pin_icon {
@@ -147,6 +153,7 @@
     border: 1px solid;
     border-color: #f2f2f2;
     padding: 15px 15px;
+    position:relative;
 
 
 }
@@ -172,6 +179,10 @@ input:focus {
 
 
 .search_mobile {
+    position:absolute;
+    left:88%;
+    width:50px;
+    height:100%;
     display: flex;
     align-items: center;
     background-color: #0065FC;
@@ -179,8 +190,9 @@ input:focus {
     color: #f2f2f2;
     padding-right: 15px;
     padding-left: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-radius: 18px;
+    
+    
 }
 
 
@@ -300,6 +312,7 @@ input:focus {
 /*Hébergements Style*/
 
 .hotels {
+    flex:2.5;
     width: 100%;
     margin-top: 0;
     padding-bottom: 0px;
@@ -434,6 +447,7 @@ input:focus {
 /*Popular Style*/
 
 .popular_hotels {
+    flex:10%;
     background-color: #F2F2F2;
     border-radius: 0px;
     width: 100%;
@@ -451,8 +465,8 @@ input:focus {
 .all_popular_cards {
 
     display: flex;
+    flex:1;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
@@ -484,13 +498,26 @@ input:focus {
 
 }
 
-.card-popular-body {
+.card_popular_text {
+    width:100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: space-around;
+    padding-right: 0px;
+    padding-left: 10px;
+}
 
+
+.card-popular-body {
+    width:100%;
     margin: 0;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: space-between;
     padding-right: 5px;
 
 }
@@ -499,26 +526,22 @@ input:focus {
     margin: 0;
     padding-bottom: 10px;
     padding-top: 10px;
-    font-size: 18px;
+    font-size: 16px;
     word-wrap: break-word;
 }
 
 .card-popular-coeur-title h3 {
     margin-top: 8px;
     padding-bottom: 10px;
-    font-size: 18px;
+    font-size: 16px;
     word-wrap: break-word;
 }
 
-.card_popular_text {
-    padding-right: 5px;
-    padding-left: 20px;
-}
 
 .card-popular-price p {
-    font-size: 15px;
+    font-size: 14px;
     margin: 0;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
 
 }
 
@@ -527,7 +550,7 @@ input:focus {
 }
 
 .card-popular-rate {
-    margin-top: 15px;
+    margin-top: 0px;
     color: #0065FC;
 }
 
@@ -592,7 +615,7 @@ input:focus {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin: 0px;
     padding-top: 0px;
 }
 
