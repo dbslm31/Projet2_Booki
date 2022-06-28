@@ -16,7 +16,6 @@
 
     display: flex;
     justify-content: center;
-    align-items: center;
     margin-top: 15px;
     margin-left: 0;
 
@@ -59,6 +58,7 @@
 }
 
 .header_link:hover {
+    
     border-bottom: 3px solid;
     border-bottom-color: #0065FC;
     border-top: none;
@@ -87,6 +87,7 @@
 }
 
 .header_link2:hover {
+    
     border-bottom: 3px solid;
     border-bottom-color: #0065FC;
     border-top: none;
@@ -112,13 +113,13 @@
     border-top: none;
     padding: 15px 40px;
     color: #0065FC !important;
-
 }
 
 /*search bar style*/
 
 .search_section {
-    margin: 2rem;
+    margin: 30px;
+    width: 80%;
 }
 
 .h1 {
@@ -136,7 +137,7 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin-top: 30px;
+    margin-top: 2rem;
 }
 
 .pin_icon {
@@ -152,8 +153,7 @@
     width: 100%;
     border: 1px solid;
     border-color: #f2f2f2;
-    padding: 15px 15px;
-    position:relative;
+    
 
 
 }
@@ -176,13 +176,7 @@ input:focus {
     border-bottom-right-radius: 15px;
 }
 
-
-
 .search_mobile {
-    position:absolute;
-    left:88%;
-    width:50px;
-    height:100%;
     display: flex;
     align-items: center;
     background-color: #0065FC;
@@ -190,11 +184,9 @@ input:focus {
     color: #f2f2f2;
     padding-right: 15px;
     padding-left: 15px;
-    border-radius: 18px;
-    
-    
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
-
 
 .fa-magnifying-glass:before,
 .fa-search:before {
@@ -207,7 +199,7 @@ input:focus {
 .filters {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
     align-items: baseline;
     font-weight: bold;
@@ -221,15 +213,15 @@ input:focus {
 }
 
 
-.filters h4 {
+.filters p {
     margin-left: 15px;
-
 }
+
 
 .filter_text {
     display: flex;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
     border: 2px solid;
     border-left: none;
     border-color: #f2f2f2;
@@ -238,8 +230,6 @@ input:focus {
     padding-top: 17px;
     padding-bottom: 17px;
     font-weight: bolder;
-
-
 
 }
 
@@ -252,8 +242,12 @@ input:focus {
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 20px;
 
+}
+
+.filter4 {
+    margin-left: 65px;
 }
 
 .filter1 p,
@@ -287,13 +281,8 @@ input:focus {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 40px;
-    margin-right: 10px;
-    margin-top: 20px;
-}
-
-.avalaible p {
-    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 30px;
 }
 
 .icon_info {
@@ -307,14 +296,14 @@ input:focus {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
+    margin:0;
 }
 
 /*Hébergements Style*/
 
 .hotels {
-    flex:2.5;
-    width: 100%;
-    margin-top: 0;
+    width: 95%;
+    margin:0;
     padding-bottom: 0px;
     border-radius: 0px;
     background-color: #fff;
@@ -326,12 +315,13 @@ input:focus {
 }
 
 .all_hotels_cards {
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-right: 20px;
-    margin-bottom: 0;
+    margin-right:0;
+    padding-right: 10px;
     padding-top: 0px;
 }
 
@@ -341,7 +331,7 @@ input:focus {
 .card {
     width: 95%;
     /*1*/
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     /*2*/
     margin-right: 10px;
     padding: 5px;
@@ -374,8 +364,7 @@ input:focus {
 
 .card-price p {
     margin: 0;
-    font-size: 15px;
-    padding-top: 5px;
+    font-size: 16px;
     padding-bottom: 10px;
 
 }
@@ -408,13 +397,13 @@ input:focus {
     /*6*/
     width: 100%;
     position: absolute;
-    top: 50%;
+    top: 6%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .card-image {
-    height: 100px;
+    height: 200px;
     /*1*/
     position: relative;
     /*2*/
@@ -430,7 +419,7 @@ input:focus {
     /*4*/
     /*5 - Méthode de centrage en fonction de la taille de l'image */
     position: absolute;
-    top: 50%;
+    top: 6%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -438,7 +427,7 @@ input:focus {
 
 
 .show_more {
-    margin: 20px;
+    margin: 30px;
     color: #333;
     text-decoration: none;
     font-weight: bold;
@@ -447,7 +436,6 @@ input:focus {
 /*Popular Style*/
 
 .popular_hotels {
-    flex:10%;
     background-color: #F2F2F2;
     border-radius: 0px;
     width: 100%;
@@ -465,8 +453,8 @@ input:focus {
 .all_popular_cards {
 
     display: flex;
-    flex:1;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
@@ -477,7 +465,7 @@ input:focus {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-right: 30px;
+    padding-right: 40px;
     padding-left: 30px;
 }
 
@@ -498,50 +486,42 @@ input:focus {
 
 }
 
-.card_popular_text {
-    width:100%;
-    height: 100%;
-    display:flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: space-around;
-    padding-right: 0px;
-    padding-left: 10px;
-}
-
-
 .card-popular-body {
-    width:100%;
+
     margin: 0;
+
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: space-between;
+    align-items: flex-start;
     padding-right: 5px;
 
 }
+
 
 .card-popular-title h3 {
     margin: 0;
     padding-bottom: 10px;
     padding-top: 10px;
-    font-size: 16px;
+    font-size: 20px;
     word-wrap: break-word;
 }
 
 .card-popular-coeur-title h3 {
-    margin-top: 8px;
+    padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 16px;
-    word-wrap: break-word;
+    font-size:20px;
 }
 
+.card_popular_text {
+    padding-right: 5px;
+    padding-left: 20px;
+}
 
 .card-popular-price p {
-    font-size: 14px;
     margin: 0;
-    padding-bottom: 0px;
+    font-size: 16px;
+    padding-bottom: 40px;
 
 }
 
@@ -550,7 +530,7 @@ input:focus {
 }
 
 .card-popular-rate {
-    margin-top: 0px;
+    margin-top: 45px;
     color: #0065FC;
 }
 
@@ -577,16 +557,17 @@ input:focus {
 .card_popular:hover .card-popular-image img {
     /*6*/
     width: 140%;
-    height: 100%;
+    /*4*/
+    height: 150%;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
     object-fit: initial;
 }
 
 .card-popular-image {
-    height: 140px;
+    height: 180px;
     /*1*/
-    width: 140px;
+    width: 190px;
     overflow: hidden;
     /*3*/
 }
@@ -595,18 +576,17 @@ input:focus {
     width: 140%;
     /*4*/
     height: 100%;
-    /*5 - Méthode de centrage en fonction de la taille de l'image */
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
-    object-fit: initial;
-}
 
+}
 
 /*Activities Style*/
 
 .activities-title h2 {
     margin-left: 40px;
-    margin-top: 20px;
+    margin-top: 50px;
+
 }
 
 .activities_cards {
@@ -615,10 +595,22 @@ input:focus {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 0px;
+    margin-left: 0px;
+    margin-right:20px;
     padding-top: 0px;
 }
 
+.activity1 h3,
+.activity2 h3,
+.activity3 h3,
+.activity4 h3,
+.activity5 h3,
+.activity6 h3 {
+    margin-left: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 .activity1,
 .activity2,
@@ -651,30 +643,17 @@ input:focus {
 }
 
 
+
 .activity1,
 .activity4 {
     width: 90%;
 }
 
-.activity1 h3,
-.activity2 h3,
-.activity3 h3,
-.activity4 h3,
-.activity5 h3,
-.activity6 h3 {
-    margin-left: 10px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    font-size: 16px;
-}
-
-
-
 .activities_images_small,
 .activities_images_medium,
 .activities_images_long,
 .activities_images_fort {
-    height: 150px;
+    height: 200px;
     /*1*/
     position: relative;
     /*2*/
@@ -692,7 +671,7 @@ input:focus {
     /*4*/
     /*5 - Méthode de centrage en fonction de la taille de l'image */
     position: absolute;
-    top: 50%;
+    top: 6%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -703,12 +682,11 @@ input:focus {
     background: #F2F2F2;
     margin-top: 30px;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
-
 }
 
 .footer_menu {
@@ -719,25 +697,23 @@ input:focus {
 .about h3,
 .our_hotels h3,
 .help h3 {
-    font-size: 18px;
+    font-size: 16px;
 }
 
+.about,
 .our_hotels,
 .help {
-    margin-top: 40px;
-    margin-left: 30px;
-    margin-right: 0;
+    margin-right: 20px;
 }
 
 .about {
-    margin-left: 30px;
-    margin-right: 0;
+    margin-left: 20px;
 }
 
 .footer_item {
 
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .footer_link:visited,
